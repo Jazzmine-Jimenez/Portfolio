@@ -284,7 +284,7 @@ STYLE SWITCHER FOR DEMO
 /*
  * 1. NAVBAR
  */
-.navbar {
+/* .navbar {
   padding: 0.5rem 1rem;
 }
 
@@ -382,7 +382,7 @@ STYLE SWITCHER FOR DEMO
 
 .navbar-dark .navbar-text {
   color: rgba(255, 255, 255, 0.5);
-}
+} */
 
 /*
  * 2. BUTTONS
@@ -2007,7 +2007,7 @@ code {
 /*
 * 10. DROPDOWNS
 */
-.dropdown-menu {
+/* .dropdown-menu {
   min-width: 10rem;
   padding: 0.5rem 0;
   margin: 0.125rem 0 0;
@@ -2036,4 +2036,4 @@ code {
 
 .dropdown-item.disabled, .dropdown-item:disabled {
   color: #6c757d;
-}
+} */
