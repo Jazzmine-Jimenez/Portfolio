@@ -9,8 +9,10 @@
   height: 30px;
 }
 
-/* .circle{
-  width: 20rem;
-  height: 20rem;
-  border-radius: 50%;
-} */
+.color{
+  background-color: rgb(118, 101, 126);
+}
+
+.site-img{
+  max-width: 400px;
+}
