@@ -35,9 +35,9 @@
         <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
   </head>
   <body>
-    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar fixed-top navbar-expand-lg color navbar-dark">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Jazzmine Jimenez</a>
+        <a class="navbar-brand" href="#home">Jazzmine Jimenez</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -45,16 +45,16 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#home">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#1">About Me</a>
+              <a class="nav-link" href="#about">About Me</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#tech-skills">Skills</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#tools">Tools</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#apps">Applications</a>
             </li>
           </ul>
         </div>
@@ -79,7 +79,7 @@
         </div>
         <div class="scroll-btn link-scroll"><i class="fas fa-angle-double-down"></i></div>
       </section>
-      <section id="1">
+      <section id="about">
         <div class="d-flex h-100 align-items-center">
           <div class="container">
             <div class="row align-items-center">
@@ -205,22 +205,46 @@
           </div>
         </div>
       </section>
-      <section class="bg-gray">
+      <section class="bg-gray" id="apps">
         <div class="d-flex h-100 align-items-center">
           <div class="container">
             <header class="text-center mb-5">
-              <h2 class="text-uppercase lined">Portfolio</h2>
+              <h2 class="text-uppercase lined">Applications</h2>
             </header>
             <div class="row">
               <div class="col-lg-12 text-center">
-                <p>You can make also a portfolio or image gallery.</p>
+                <p>Some of my most recent projects I am proud of.</p>
               </div>
-              <div class="col-lg-4 col-md-6 mb-4"><a href="img/portfolio-1.jpg" data-lightbox="image-1" data-title="My caption" class="d-block mb-1"><img src="img/portfolio-1.jpg" alt="..." class="img-fluid d-block mx-auto"></a></div>
-              <div class="col-lg-4 col-md-6 mb-4"><a href="img/portfolio-2.jpg" data-lightbox="image-1" data-title="My caption" class="d-block mb-1"><img src="img/portfolio-2.jpg" alt="..." class="img-fluid d-block mx-auto"></a></div>
-              <div class="col-lg-4 col-md-6 mb-4"><a href="img/portfolio-3.jpg" data-lightbox="image-1" data-title="My caption" class="d-block mb-1"><img src="img/portfolio-3.jpg" alt="..." class="img-fluid d-block mx-auto"></a></div>
-              <div class="col-lg-4 col-md-6 mb-4"><a href="img/portfolio-4.jpg" data-lightbox="image-1" data-title="My caption" class="d-block mb-1"><img src="img/portfolio-4.jpg" alt="..." class="img-fluid d-block mx-auto"></a></div>
-              <div class="col-lg-4 col-md-6 mb-4"><a href="img/portfolio-5.jpg" data-lightbox="image-1" data-title="My caption" class="d-block mb-1"><img src="img/portfolio-5.jpg" alt="..." class="img-fluid d-block mx-auto"></a></div>
-              <div class="col-lg-4 col-md-6 mb-4"><a href="img/portfolio-6.jpg" data-lightbox="image-1" data-title="My caption" class="d-block mb-1"><img src="img/portfolio-6.jpg" alt="..." class="img-fluid d-block mx-auto"></a></div>
+              <div class="row">
+                <div class="col-sm-6">
+                  <h4>EarthSpace</h4>
+                  <p><b>Made with: </b> JavaScript, React.ss, Express, Bootstrap, PostgreSQL, Node.js, HTML, CSS</p>
+                  <p>EarthSpace is a full-stack application for environmentalist who want to share and get ideas from other environmentalist</p>
+                  <div class="d-grid gap-2 d-md-block">
+                    <a class="btn btn-primary btn-lg color" href="https://earthspace.herokuapp.com/#sign-in" role="button">Live Site</a>
+                    <a class="btn btn-primary btn-lg color" href="https://github.com/Jazzmine-Jimenez/EarthSpace" role="button">GitHub</a>
+                  </div>
+                </div>
+                <div class="col-6 text-center mt-4">
+                  <img class="site-img rounded" src="img/EarhSpace-Screenshot.png" alt="EarthSpace Screenshot">
+                </div>
+              </div>
+              <div class="row mt-5">
+                <div class="col-sm-6">
+                  <h4>The Magic Conch Shell</h4>
+                  <p><b>Made with: </b> JavaScript,HTML, CSS</p>
+                  <p>The Magic Conch Shell is a SpongeBob themed activity generator for those who are bored and in need of an activity</p>
+                  <div class="d-grid gap-2 d-md-block">
+                    <a class="btn btn-primary btn-lg color" href="https://jazzmine-jimenez.github.io/ajax-project/" role="button">Live
+                      Site</a>
+                    <a class="btn btn-primary btn-lg color" href="https://github.com/Jazzmine-Jimenez/ajax-project"
+                      role="button">GitHub</a>
+                  </div>
+                </div>
+                <div class="col-6 text-center mt-4">
+                  <img class="site-img rounded" src="img/magic-conch-shell-screenshot.png" alt="The Magic Conch Shell Screenshot">
+                </div>
+              </div>
             </div>
           </div>
         </div>
