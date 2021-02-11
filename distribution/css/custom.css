@@ -1,1 +1,16 @@
 /* your styles go here */
+.icon-img{
+  width: 20px;
+  height: 20px;
+}
+
+.icon-img-bigger{
+  width: 30px;
+  height: 30px;
+}
+
+/* .circle{
+  width: 20rem;
+  height: 20rem;
+  border-radius: 50%;
+} */

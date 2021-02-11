@@ -19,7 +19,7 @@ section {
 }
 
 .hero {
-  background: url(../img/macbook-juice.jpg);
+  background: url(../img/hawaii.JPG);
   min-height: 100vh;
   display: -ms-flexbox;
   display: flex;
@@ -114,8 +114,8 @@ section {
 }
 
 .social-link {
-  width: 26px;
-  height: 26px;
+  width: 40px;
+  height: 40px;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-align: center;
@@ -134,20 +134,12 @@ section {
   text-decoration: none;
 }
 
-.social-link-facebook {
-  background: #4460ae;
+.social-link-github {
+  background: #484c57;
 }
 
-.social-link-twitter {
-  background: #3cf;
-}
-
-.social-link-instagram {
-  background: #cd4378;
-}
-
-.social-link-google-plus {
-  background: #c21f25;
+.social-link-linkedin {
+  background: #1a63d1;
 }
 
 .lined::after {
@@ -1857,7 +1849,7 @@ code {
 /*
 * 8. NAV
 */
-.nav-link {
+/* .nav-link {
   padding: 0.5rem 1rem;
 }
 
@@ -1901,7 +1893,7 @@ code {
 .nav-pills .show > .nav-link {
   color: #fff;
   background-color: #9055A2;
-}
+} */
 
 /*
 * 9. CARD
