@@ -50,28 +50,6 @@ section {
   text-decoration: none;
 }
 
-/* @-webkit-keyframes float {
-  0% {
-    -webkit-transform: translateY(0.5rem);
-    transform: translateY(0.5rem);
-  }
-  100% {
-    -webkit-transform: none;
-    transform: none;
-  }
-}
-
-@keyframes float {
-  0% {
-    -webkit-transform: translateY(0.5rem);
-    transform: translateY(0.5rem);
-  }
-  100% {
-    -webkit-transform: none;
-    transform: none;
-  }
-} */
-
 .bg-cover {
   background-size: cover !important;
 }
@@ -204,10 +182,15 @@ h4
   font-weight: 300;
 }
 
-.site-img-screenshot{
-  max-width: 500px;
-}
-
 .contact-container{
   max-width: 600px;
+}
+
+.icon-size{
+  transition: ease-in;
+  transition-duration: 10ms;
+}
+
+.icon-size:hover{
+  font-size: 2rem;
 }
