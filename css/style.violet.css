@@ -7,6 +7,10 @@ section {
   padding: 6rem 0;
 }
 
+.navbar-brand{
+  font-family: 'Dancing Script', cursive;
+}
+
 .theme-color{
   background-color: rgb(118, 101, 126);
 }
@@ -137,7 +141,7 @@ section {
 }
 
 body {
-  font-family: "cardo", sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   line-height: 1.5;
   background-color: #fff;
 }
@@ -147,7 +151,7 @@ body {
   border-color: #724381;
   background-color:  rgb(118, 101, 126);
   text-decoration: none;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
 }
 
 .contact-boxes {
@@ -165,15 +169,15 @@ body {
   border-color: #c7b2ce;
   background-color: #c7b2ce;
   text-decoration: none;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Halant', serif;
 }
 
 h1,
 h2,
 h4
 {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
+  font-family: 'Halant', serif;
+  /* font-weight: 700; */
   line-height: 1.2;
 }
 
@@ -188,7 +192,7 @@ h4
 
 .icon-size{
   transition: ease-in;
-  transition-duration: 10ms;
+  transition-duration: 5ms;
 }
 
 .icon-size:hover{
