@@ -9,29 +9,16 @@
   height: 30px;
 }
 
-.color{
-  background-color: rgb(118, 101, 126);
-}
-
-.site-img{
-  max-width: 400px;
-}
-
 .icon-img-express{
   width: 20px;
   height: 14px;
-}
-
-
-.contact-container{
-  max-width: 600px;
 }
 
 .icon-size{
   font-size: 1.5rem;
 }
 
-
 .resume-btn{
   background-color: rgb(255, 255, 255);
+  max-width: 120px;
 }
