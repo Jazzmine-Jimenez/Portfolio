@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 
-section {
+section, footer {
   position: relative;
   padding: 6rem 0;
 }
@@ -177,7 +177,7 @@ h2,
 h4
 {
   font-family: 'Halant', serif;
-  /* font-weight: 700; */
+  font-weight: 700;
   line-height: 1.2;
 }
 
@@ -195,6 +195,6 @@ h4
   transition-duration: 5ms;
 }
 
-.icon-size:hover{
+.icon-size:hover, .icon-size:focus{
   font-size: 2rem;
 }
