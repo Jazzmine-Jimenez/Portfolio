@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 
-section {
+section, footer {
   position: relative;
   padding: 6rem 0;
 }
@@ -144,11 +144,12 @@ body {
   font-family: 'Nunito Sans', sans-serif;
   line-height: 1.5;
   background-color: #fff;
+  font-size: 1.2rem;
 }
 
 .btn {
   color: #ffffff;
-  border-color: #724381;
+  border-color: rgb(230, 226, 214);
   background-color:  rgb(118, 101, 126);
   text-decoration: none;
   font-family: 'Nunito Sans', sans-serif;
@@ -177,13 +178,13 @@ h2,
 h4
 {
   font-family: 'Halant', serif;
-  /* font-weight: 700; */
+  font-weight: 700;
   line-height: 1.2;
 }
 
 .lead {
-  font-size: 1.25rem;
-  font-weight: 300;
+  font-size: 1.4rem;
+  font-weight: 500;
 }
 
 .contact-container{
@@ -195,6 +196,6 @@ h4
   transition-duration: 5ms;
 }
 
-.icon-size:hover{
+.icon-size:hover, .icon-size:focus{
   font-size: 2rem;
 }
